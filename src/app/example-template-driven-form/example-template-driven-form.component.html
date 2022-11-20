@@ -1,0 +1,13 @@
+<div class="container">
+    <form #tdform="ngForm" (ngSubmit)="onSave(tdform)" >
+     
+        <label>Name</label>
+            <input name="name" ngModel/>
+            <br>
+   
+        <label>Age</label>
+            <input  name="age" ngModel><br>
+   
+       <button type="submit" mat-raised-button color="primary">SAVE</button>
+    </form>
+</div>
